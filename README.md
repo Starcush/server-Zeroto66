@@ -1,14 +1,47 @@
-# ZeroTo66-server
+# Zeroto66-Server
 
-필요한 extension : prettier, eslint  
-prettier 설정 : Tab Width - 2, Single Quote - true
+**"습관이 만들어지는데 걸리는 시간 66일"**
 
-node version : 13.11.0 ( cli : nvm install 13.11.0 )  
-branch name : feature\_"name of feature"
+습관은 사람을 만든다고 합니다. 그런데 66일 동안 유지하는게 쉽지 않은 일이죠.
 
-커밋 메시지 가이드라인 : 'git commit' 활용, 맨 윗줄에는 영어로 body는 한글로 변경사항 설명하기.  
-참고 접두사 : ADD, FIX, DELETE
+그래서 습관으로 만들고 싶은 습관들을 성공했을 때 달력에 직접 보여줘서 얻을 수 있는 성취감을 통해서 습관을 만들어주는 웹 어플리케이션 Zeroto66를 만들었습니다.
 
-record.js
-post : 습관이 성공했는지 확인하는 메소드
-getDetail : get method를 사용해서 특정 습관의 월별 정보를 가져옵니다.
+- Notion : <a href="https://www.notion.so/wagucus198/Zeroto66-82bf623b597842a6bf4f9210794b7647">https://www.notion.so/wagucus198/Zeroto66-82bf623b597842a6bf4f9210794b7647</a>
+- Client Github : <a href="https://github.com/Starcush/client-Zeroto66">https://github.com/Starcush/client-Zeroto66</a>
+  <br><br>
+
+## 설치 및 실행
+
+### 설치
+
+```js
+$ npm install
+```
+
+### 실행
+
+```js
+$ npm run server
+```
+
+- "zeroto66"라는 database가 존재해야 합니다.
+
+<br><br>
+
+## 스택
+
+<br>
+
+- **Client** : Javscript(ES6), React, HTML/CSS<br><br>
+- **Server** : Node.js, Sequelize, Mysql, JWT, Javscript(ES6)<br>
+  <br><br>
+
+## 데이터베이스
+
+<br>
+<img src="demo/ZeroTo66-db.png" width="60%" height="60%"><br><br>
+<br>
+
+## API
+
+Server에서 작성한 API는 Notion에서 확인이 가능합니다.
